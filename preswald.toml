@@ -1,0 +1,24 @@
+[project]
+title = "Global AI Content Impact Dashboard"
+version = "1.0.0"
+port = 8501
+slug = "global-ai-dashboard"
+entrypoint = "hello.py"
+
+[branding]
+name = "Global AI Dashboard"
+logo = "images/logo.png"
+favicon = "images/favicon.ico"
+primaryColor = "#0047AB"  # Calm Professional Blue
+
+[data.sample_csv]
+type = "csv"
+path = "data/sample.csv"
+
+[data.ai_impact]
+type = "csv"
+path = "data/Global_AI_Content_Impact_Dataset.csv"
+
+[logging]
+level = "INFO"
+format = "%(asctime)s | %(name)s | %(levelname)s | %(message)s"
